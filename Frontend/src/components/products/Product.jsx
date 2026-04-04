@@ -1,8 +1,7 @@
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import React, { useState, useEffect } from 'react'
-import ProductListItems from './ProductListItems'
-
+import Productlistitems from './Productlistitems'
 function Product() {
     const [product,setProduct]=useState(null)
     const{id}=useParams()
