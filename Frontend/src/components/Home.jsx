@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import Productlistitems from './products/productlistitems'
+import ProductListItems from './products/ProductListItems'
 import Categories from './categories/Categories'
 import { useParams } from 'react-router-dom'
 
